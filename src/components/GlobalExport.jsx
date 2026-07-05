@@ -90,8 +90,8 @@ export default function GlobalExport() {
         </div>
 
         <Reveal delay={0.2}>
-          <div className="relative aspect-square max-w-lg mx-auto">
-            <svg viewBox="0 0 100 100" className="w-full h-full overflow-visible">
+          <div className="relative aspect-square max-w-lg mx-auto overflow-visible">
+            <svg viewBox="-15 -5 130 110" className="w-full h-full">
               {/* subtle rotating outer ring for ambient motion */}
               <motion.circle
                 cx="50" cy="50" r="46"
@@ -123,6 +123,8 @@ export default function GlobalExport() {
               {nodes.map((n, i) => (
                 <motion.circle
                   key={`pulse-${n.name}`}
+                  cx="50"
+                  cy="50"
                   r="0.9"
                   fill="#B68C45"
                   initial={{ opacity: 0 }}
