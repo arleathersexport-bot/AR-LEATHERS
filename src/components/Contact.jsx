@@ -36,7 +36,7 @@ export default function Contact() {
                 </span>
                 <div>
                   <p className="text-xs text-charcoal/50 uppercase tracking-wide font-alt">Phone</p>
-                  <p className="font-alt text-charcoal">+91 00000 00000</p>
+                  <p className="font-alt text-charcoal">+91 7871777608</p>
                 </div>
               </a>
             </Reveal>
@@ -47,7 +47,7 @@ export default function Contact() {
                 </span>
                 <div>
                   <p className="text-xs text-charcoal/50 uppercase tracking-wide font-alt">Email</p>
-                  <p className="font-alt text-charcoal">info@arleathers.com</p>
+                  <p className="font-alt text-charcoal">arleathergoods27@gmail.com</p>
                 </div>
               </a>
             </Reveal>
@@ -64,7 +64,7 @@ export default function Contact() {
             </Reveal>
             <Reveal delay={0.4}>
               <a
-                href="https://wa.me/910000000000"
+                href="https://wa.me/918922010767"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 mt-2 text-sm font-alt font-medium text-gold hover:text-cocoa transition-colors"
