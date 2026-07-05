@@ -67,11 +67,6 @@ export default function Footer() {
               ))}
             </div>
 
-            <h4 className="font-display text-lg mb-3 mt-6" style={{ color: "#EEE2D1" }}>Newsletter</h4>
-            <form className="flex gap-2" onSubmit={(e) => e.preventDefault()}>
-              <input type="email" placeholder="Your email" className="flex-1 min-w-0 rounded-full px-4 py-2 text-sm focus:outline-none" style={{ backgroundColor: "rgba(238,226,209,0.07)", border: "1px solid rgba(238,226,209,0.15)", color: "#EEE2D1" }} />
-              <button className="w-10 h-10 shrink-0 rounded-full flex items-center justify-center text-cocoa font-bold" style={{ backgroundColor: "#B68C45" }}>→</button>
-            </form>
           </div>
         </div>
 

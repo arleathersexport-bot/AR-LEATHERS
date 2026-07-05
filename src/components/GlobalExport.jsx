@@ -123,11 +123,9 @@ export default function GlobalExport() {
               {nodes.map((n, i) => (
                 <motion.circle
                   key={`pulse-${n.name}`}
-                  cx="50"
-                  cy="50"
                   r="0.9"
                   fill="#B68C45"
-                  initial={{ opacity: 0 }}
+                  initial={{ cx: 50, cy: 50, opacity: 0 }}
                   animate={{
                     cx: [50, n.x],
                     cy: [50, n.y],
