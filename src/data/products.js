@@ -7,6 +7,19 @@ import product1Image5 from "../assets/Product1/Image5.jpeg";
 import product1Image6 from "../assets/Product1/Image6.jpeg";
 import product1Image7 from "../assets/Product1/Image7.jpeg";
 import product1Image8 from "../assets/Product1/Image8.jpeg";
+import product2Image1 from "../assets/Product2/Image1.jpeg";
+import product2Image2 from "../assets/Product2/Image2.jpeg";
+import product2Image3 from "../assets/Product2/Image3.jpeg";
+import product2Image4 from "../assets/Product2/Image4.jpeg";
+import product2Image5 from "../assets/Product2/Image5.jpeg";
+import product2Image6 from "../assets/Product2/Image6.jpeg";
+import product2Image7 from "../assets/Product2/Image7.jpeg";
+import product3Image1 from "../assets/Product3/Image1.jpeg";
+import product3Image2 from "../assets/Product3/Image2.jpeg";
+import product3Image3 from "../assets/Product3/Image3.jpeg";
+import product3Image4 from "../assets/Product3/Image4.jpeg";
+import product3Image5 from "../assets/Product3/Image5.jpeg";
+import product3Image6 from "../assets/Product3/Image6.jpeg";
 
 // NOTE: All products currently use the same sample image (x3) as placeholders.
 // Replace the `images` array for each product with real photography when available.
@@ -21,6 +34,25 @@ const cowCalfHidesGallery = [
   product1Image6,
   product1Image7,
   product1Image8,
+];
+
+const buffaloOmasumGallery = [
+  product2Image1,
+  product2Image2,
+  product2Image3,
+  product2Image4,
+  product2Image5,
+  product2Image6,
+  product2Image7,
+];
+
+const buffaloWetBlueGallery = [
+  product3Image1,
+  product3Image2,
+  product3Image3,
+  product3Image4,
+  product3Image5,
+  product3Image6,
 ];
 
 export const products = [
@@ -50,54 +82,60 @@ export const products = [
     exportInfo: "Shipped via refrigerated (reefer) containers with controlled temperature to preserve hide quality in transit, along with full export documentation and grading certificates.",
   },
   {
-    slug: "finished-leather",
-    name: "Finished Leather",
-    category: "Finished Leather",
-    tagline: "Ready-to-cut leather with a refined, uniform finish",
-    images: gallery,
+    slug: "frozen-buffalo-omasum",
+    name: "Frozen Buffalo Omasum (Salted / Dried Grade Mix)",
+    category: "Commodity Exports",
+    tagline: "Carefully selected and processed buffalo omasum for export markets",
+    images: buffaloOmasumGallery,
     overview:
-      "Our Finished Leather is fully processed and finished to international standards, offering a consistent grain, refined surface, and colour uniformity suited to premium footwear, leather goods, and upholstery applications. Every hide passes through controlled tanning, dyeing, and finishing stages before final grading.",
+      "The product consists of carefully selected buffalo omasum processed under hygienic conditions and sorted according to commercial export grades. The omasum is clean, well-preserved, free from excessive contamination, and suitable for further processing by the buyer. Every hide is graded, inspected, and prepared to international export standards.",
     specs: [
-      { label: "Material", value: "Cow & Buffalo hide" },
-      { label: "Tannage", value: "Chrome / Vegetable / Combination" },
-      { label: "Thickness", value: "0.8 mm – 2.5 mm (customisable)" },
-      { label: "Finish", value: "Matte, Semi-Gloss, Aniline, Pigmented" },
-      { label: "Grain", value: "Full Grain / Corrected Grain" },
-      { label: "Packing", value: "Rolled / Folded, export cartons" },
+      { label: "Product", value: "Frozen Buffalo Omasum (Salted / Dried Grade Mix)" },
+      { label: "Container Size", value: "1 × 40 FT container" },
+      { label: "Total Net Weight", value: "30,440 kg" },
+      { label: "Number of Bags", value: "761 bags" },
+      { label: "Weight per Bag", value: "40 kg net weight" },
+      { label: "Grade Distribution", value: "AA (2.1%), A1 (17.9%), A (24.2%), B (36.1%), C (16.4%), R (3.3%)" },
     ],
     features: [
-      "Uniform colour consistency across batches",
-      "Strict thickness and grading tolerance",
-      "Wide range of finishes and textures",
-      "Available in bulk quantities for export",
+      "Natural buffalo omasum",
+      "Clean and properly graded",
+      "Uniform packing by grade",
+      "Hygienically processed",
+      "Suitable for export markets",
+      "Packed in strong export bags",
     ],
-    applications: ["Premium Footwear", "Leather Goods & Accessories", "Upholstery", "Automotive Interiors"],
-    exportInfo: "Available for FOB / CIF shipment from Indian ports with complete export documentation, quality certificates, and flexible container-load or LCL quantities.",
+    applications: ["Food Processing", "Export Markets", "Further Processing", "Commercial Applications"],
+    exportInfo: "Shipped in specialized containers with proper temperature and moisture control, complete export documentation, and grading certificates. Available for FOB/CIF shipment from Indian ports with full phytosanitary compliance.",
   },
   {
-    slug: "wet-blue-leather",
-    name: "Wet Blue Leather",
+    slug: "buffalo-wet-blue-hides",
+    name: "Buffalo Wet Blue Hides (5% Chrome)",
     category: "Wet Blue Leather",
-    tagline: "Chrome-tanned hides for further tannery processing",
-    images: gallery,
+    tagline: "Heavy-duty chrome-tanned hides for premium leather production",
+    images: buffaloWetBlueGallery,
     overview:
-      "Wet Blue Leather from AR LEATHERS is chrome-tanned to a stable, blue-toned state ready for crusting and finishing by tanneries worldwide. We maintain consistent tannage quality, moisture control, and grading across every shipment to support smooth downstream processing.",
+      "Our Buffalo Wet Blue Hides are chrome-tanned using 5% basic chromium sulfate, ensuring excellent fiber strength, durability, and uniform tanning quality. These hides are suitable for manufacturing heavy-duty leather products such as industrial leather, safety footwear, belts, saddlery, and premium upholstery.",
     specs: [
-      { label: "Material", value: "Cow, Buffalo & Calf hide" },
-      { label: "Tannage", value: "Chrome Tanned (Wet Blue)" },
-      { label: "Moisture", value: "Controlled, export-standard" },
-      { label: "Selection", value: "A / B / C grade available" },
-      { label: "Area Range", value: "As per buyer specification" },
-      { label: "Packing", value: "Palletised, salt-free, export wrapped" },
+      { label: "Product", value: "Buffalo Wet Blue Hides" },
+      { label: "Chrome Content", value: "5%" },
+      { label: "Belly Thickness", value: "4.0 mm+" },
+      { label: "Overall Average Thickness", value: "5.0 mm+" },
+      { label: "Average Size", value: "40 sq. ft. and above" },
+      { label: "Quality", value: "Clean grain, well-trimmed, uniformly tanned, carefully sorted" },
+      { label: "Moisture", value: "Standard wet blue condition" },
+      { label: "Origin", value: "India" },
     ],
     features: [
-      "Consistent chrome tanning process",
-      "Multiple grade options for varied budgets",
-      "Suitable for further crusting & finishing",
-      "Reliable bulk supply capacity",
+      "5% chromium sulfate tanning for durability",
+      "Heavy-duty thickness (4.0-5.0 mm+)",
+      "Large size hides (40 sq ft+)",
+      "Clean grain and excellent uniformity",
+      "Ideal for industrial and premium leather",
+      "Carefully sorted and quality-assured",
     ],
-    applications: ["Tannery Processing", "Crust Leather Manufacturing", "Footwear Components", "Leather Goods Manufacturing"],
-    exportInfo: "Shipped in bulk container loads with tannery-standard packing, moisture documentation, and phytosanitary/export compliance certificates.",
+    applications: ["Industrial Leather", "Safety Footwear", "Belts & Straps", "Saddlery", "Premium Upholstery"],
+    exportInfo: "Folded and palletized for export. Suitable for 20 ft or 40 ft container loading according to buyer requirements. Complete export documentation and quality certificates provided.",
   },
   {
     slug: "crust-leather",

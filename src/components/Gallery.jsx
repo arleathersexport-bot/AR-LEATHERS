@@ -5,6 +5,7 @@ import Reveal from "./Reveal";
 import sample from "../assets/sample-product.jpg";
 import cowCalfHide from "../assets/Product1/Image1.jpeg";
 
+
 const categories = ["All", "Finished Leather", "Wet Blue Leather", "Crust Leather", "Raw Hides", "Manufacturing", "Exports"];
 
 const images = [
