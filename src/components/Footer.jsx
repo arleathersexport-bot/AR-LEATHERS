@@ -50,11 +50,14 @@ export default function Footer() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-10 pb-14">
           {/* Logo & About */}
           <div className="lg:col-span-2">
-            <img
-              src={logo}
-              alt="AR Leathers"
-              className="h-12 brightness-0 invert opacity-85 mb-5"
-            />
+            <div className="flex items-center gap-2 mb-5">
+              <img
+                src={logo}
+                alt="AR"
+                className="h-12 brightness-0 invert opacity-85"
+              />
+              <span className="text-sm font-alt font-medium" style={{ color: "rgba(238,226,209,0.85)" }}>Leathers</span>
+            </div>
 
             <p
               className="text-sm leading-relaxed max-w-xs"
